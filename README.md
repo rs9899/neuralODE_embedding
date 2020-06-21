@@ -10,3 +10,10 @@ Paper followed : [neuralODE](https://arxiv.org/abs/1806.07366)
 * ODE Network changes this step wise approach to continuous domain.
 
 ![](https://pbs.twimg.com/media/DgJIjd7VQAAEENZ.jpg)
+
+* This Differential Equation based approach removes the bottle-neck we have in normal Neural Network approach to store the activations of the layer in forward pass.
+* In section 5 of the paper, we see the use of ODE in time series. The benifit of this ODE network is that given the initial activation, we can run out network to obtain the output at any timestep.
+* We can use this time-series based output in both direction as they showed in the experiments with Bi-directional spiral dataset. This gave me the idea that I continue in the later parts.
+
+## [BERT](https://arxiv.org/pdf/1810.04805.pdf)
+> **B**idirectional **E**ncoder **R**epresentations from **T**ransformers : Pre-training of Deep Bidirectional Transformers for Language Understanding
