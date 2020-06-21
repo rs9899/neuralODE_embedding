@@ -31,3 +31,9 @@ Paper followed : [neuralODE](https://arxiv.org/abs/1806.07366)
 
 ## Experiments
 * Basic installation and usage in colab : [here](neuralODE_basic.ipynb)
+
+
+## Conclusion
+This is just an ideation that will get more base as we get more popularity and usage of neuralODE in all domains. 
+
+> ***Thanks for Reading***
