@@ -17,3 +17,10 @@ Paper followed : [neuralODE](https://arxiv.org/abs/1806.07366)
 
 ## [BERT](https://arxiv.org/pdf/1810.04805.pdf)
 > **B**idirectional **E**ncoder **R**epresentations from **T**ransformers : Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+* BERT is a pre-trained langauge model word representation.
+* As the name suggests and in one of the training part of BERT is bidirectional Language modelling where they mask a few words and expect the network to predict them.
+
+## The IDEA
+* One of the few feature of training time series using ODE Network is that, given the activations at some of the given timesteps, we can expect the output at any other timestep, either forward of backward in time.
+* This can be used to train a embedding network like the mask Langage modelling of BERT. We can mask few of the input and infer the activations at those places given rest of the activations. 
