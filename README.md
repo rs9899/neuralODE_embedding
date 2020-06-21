@@ -24,3 +24,8 @@ Paper followed : [neuralODE](https://arxiv.org/abs/1806.07366)
 ## The IDEA
 * One of the few feature of training time series using ODE Network is that, given the activations at some of the given timesteps, we can expect the output at any other timestep, either forward of backward in time.
 * This can be used to train a embedding network like the mask Langage modelling of BERT. We can mask few of the input and infer the activations at those places given rest of the activations. 
+
+## Benifits of this approach
+* While training, we can use all the benifits that were proposed by the neuralODE paper like *memory efficiency*, *Adaptive computation* & *Scalability* 
+* One of the shortcoming of BERT was is large size and inability to train such network specific to the usecase from scratch and making a model that is efficient with the memory use will be benifit in many ways.
+
