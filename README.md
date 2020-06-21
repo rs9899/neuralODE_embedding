@@ -29,3 +29,5 @@ Paper followed : [neuralODE](https://arxiv.org/abs/1806.07366)
 * While training, we can use all the benifits that were proposed by the neuralODE paper like *memory efficiency*, *Adaptive computation* & *Scalability* 
 * One of the shortcoming of BERT was is large size and inability to train such network specific to the usecase from scratch and making a model that is efficient with the memory use will be benifit in many ways.
 
+## Experiments
+* Basic installation and usage in colab : [here](neuralODE_basic.ipynb)
